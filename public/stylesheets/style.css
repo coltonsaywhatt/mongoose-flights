@@ -1,8 +1,81 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-image: url('http://i.imgur.com/GcP71BP.png');
+	font-family: Montserrat, sans-serif;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+  background-size: cover;
+}
+
+#btnn, table {
+  align-items: center;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  margin-bottom: 15px;
+}
+
+form {
+  margin-bottom: 15px;
 }
 
 a {
   color: #00B7FF;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+.button {
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #80c8ef;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  margin: 15px;
+}
+
+.button:hover {
+  background: #97999a;
+}
+
+#newBtn {
+  align-items: center;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  margin-bottom: 15px;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row; 
+}
+
+.container {
+	background-color: #231E39;
+	border-radius: 25px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+	color: #B3B8CD;
+	padding: 30px 0 0;
+	position: relative;
+	width: 650px;
+	max-width: 100%;
+	text-align: center;
+	margin: 20px 0;
+	overflow: hidden;
 }
